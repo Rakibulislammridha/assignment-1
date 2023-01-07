@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/*hero section*/
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -40,6 +41,7 @@
   margin-top: 25px;
   border-radius: 5px;
 }
+/*failure section*/
 .failure {
   display: flex;
   align-items: center;
@@ -69,6 +71,7 @@
   margin-top: 20px;
   margin-left: 3px;
 }
+/*plan section*/
 .plan-heading {
   text-align: center;
   margin-top: 200px;
@@ -96,6 +99,7 @@
   margin-top: 5px;
   font-size: 16px;
 }
+/*positive section*/
 .positive-content {
   width: 100%;
   height: 100%;
@@ -124,9 +128,56 @@
   color: #0765af;
   background-color: #fff;
   border: none;
-  font-size: 24px;
+  font-size: 30px;
   font-family: roboto;
   padding: 13px 20px 15px 20px;
   margin-top: 25px;
   border-radius: 5px;
+}
+/*footer section*/
+.footer {
+  display: flex;
+  gap: 100px;
+  background-color: #1f1d1c;
+  padding: 130px 200px;
+  align-items: left;
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+.footer h1 {
+  color: #ffffff;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.footer p {
+  color: #ffffff;
+  align-items: left;
+  text-align: left;
+}
+.footer h2 {
+  color: #ffffff;
+  align-items: right;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+.footer button {
+  color: #f3f7f9;
+  background-color: rgb(56, 10, 239);
+  border: none;
+  font-size: 20px;
+  font-family: roboto;
+  padding: 13px 20px 15px 20px;
+  margin-top: 40px;
+  margin-left: 200px;
+  border-radius: 5px;
+}
+.footer input {
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  margin-left: 200px;
+}
+.footer a {
+  margin-right: 10px;
 }
